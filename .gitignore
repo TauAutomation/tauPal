@@ -40,3 +40,5 @@ ENV/
 
 # Conductor
 conductor/
+
+taupal_backup.py
