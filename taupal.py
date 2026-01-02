@@ -56,7 +56,7 @@ class CrewStructure(BaseModel):
 
 # --- 2. THE ARCHITECT (LLM ENGINE) ---
 class CrewArchitect:
-    def __init__(self, api_key: str, model_name: str = 'gemini-1.5-flash'):
+    def __init__(self, api_key: str, model_name: str = 'gemini-flash-latest'):
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel(model_name)
 

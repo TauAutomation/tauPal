@@ -43,7 +43,7 @@ Using **Google Gemini**, tauPal helps you design, visualize, and refine complex 
 ## 🛠️ Usage
 
 1.  **Enter API Key:** Provide your Gemini API Key in the sidebar.
-2.  **Select Model:** Choose your preferred Gemini model (default: `gemini-1.5-flash`).
+2.  **Select Model:** Choose your preferred Gemini model (default: `gemini-flash-latest`).
 3.  **Describe Workflow:** Type a description of what you want your AI crew to do.
     > *Example: "Create a marketing crew where a Researcher finds trends on Reddit, a Strategist picks the best angle, and a Copywriter writes a LinkedIn post."*
 4.  **Generate:** Click "Generate Architecture".
@@ -62,5 +62,3 @@ Built with love by **Tau Automation**.
 - **Email:** [tauautomation@gmail.com](mailto:tauautomation@gmail.com)
 - **Website:** [https://tauautomation.netlify.app/](https://tauautomation.netlify.app/)
 
----
-*Powered by Google Gemini & Streamlit*
