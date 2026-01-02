@@ -10,8 +10,8 @@ Using **Google Gemini**, tauPal helps you design, visualize, and refine complex 
 - **Strict Schema Enforcement:** Uses a "Zero Hallucination Layer" to ensure generated architectures are valid and strictly typed (Agents, Tasks, ToolConfigs).
 - **Interactive Refinement:** 
     - **Chat:** Use natural language to tweak the flow (e.g., "Add a QA agent").
-    - **Visual:** Manually edit Agent goals and Task descriptions to instantly update the blueprint.
-- **Visual Blueprint:** Renders clear, directed graphs of your AI crew using Graphviz.
+    - **Visual Canvas:** Drag-and-drop editor to rearrange agents and tasks. Click nodes to edit roles, goals, and descriptions directly.
+- **Visual Blueprint:** Renders interactive node-based graphs of your AI crew.
 - **Code Generation:** Exports ready-to-run `crew.py` Python code, including custom tool placeholders and `Flow` entry points.
 
 ## 🚀 Getting Started
@@ -20,7 +20,6 @@ Using **Google Gemini**, tauPal helps you design, visualize, and refine complex 
 
 - Python 3.10+
 - A Google Gemini API Key
-- [Graphviz](https://graphviz.org/download/) installed and added to your system PATH.
 
 ### Installation
 
@@ -34,6 +33,7 @@ Using **Google Gemini**, tauPal helps you design, visualize, and refine complex 
     ```bash
     pip install -r requirements.txt
     ```
+    *(Note: Graphviz is no longer strictly required for the visual editor, but may be needed if using legacy fallback modes)*
 
 3.  Run the application:
     ```bash
