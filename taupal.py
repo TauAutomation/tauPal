@@ -365,7 +365,7 @@ with st.sidebar:
         
     model_option = st.text_input(
         "Gemini Model", 
-        value="gemini-1.5-flash"
+        value="gemini-flash-latest"
     )
         
     st.info("Tip: Describe your workflow in detail. Mention roles, specific tools needed, and any documents/knowledge the agents should have.")
